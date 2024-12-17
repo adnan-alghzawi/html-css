@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .d1 {
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            height: 150px;
+            border: 2px dashed black;
+            font-size: 15px;
+            color: white;
+        }
+
+        .d1 div {
+            width: 98px;
+        }
+
+        .d1 .c1 {
+            background-color: red;
+        }
+
+        .d1 .c2 {
+            background-color: green;
+
+        }
+
+        .d1 .c3 {
+            background-color: red;
+        }
+
+        .d1 .c4 {
+            background-color: red;
+        }
+
+        .d2 {
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            height: 150px;
+            border: 2px dashed black;
+            font-size: 15px;
+            color: white;
+
+        }
+
+        .d2 div {
+            width: 97px;
+        }
+
+        .d2 .c1 {
+            background-color: red;
+        }
+
+        .d2 .c2 {
+            background-color: green;
+            position: relative;
+            top: 20px;
+            left: 10px;
+
+        }
+
+        .d2 .c3 {
+            background-color: red;
+        }
+
+        .d2 .c4 {
+            background-color: red;
+        }
+
+
+        .d3 {
+            display: flex;
+            justify-content: space-between;
+            width: 400px;
+            height: 150px;
+            border: 2px dashed black;
+            font-size: 15px;
+            color: white;
+            position: relative;
+        }
+
+        .d3 div {
+            width: 130px;
+        }
+
+        .d3 .c1 {
+            background-color: red;
+        }
+
+        .d3 .c2 {
+            background-color: green;
+            position: absolute;
+            top: 20px;
+            left: 10px;
+            height: 150px;
+
+        }
+
+        .d3 .c3 {
+            background-color: red;
+        }
+
+        .d3 .c4 {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>position::static</h3>
+    <div class="d1">
+        <div class="c1">One</div>
+        <div class="c2">Two</div>
+        <div class="c3">Three</div>
+        <div class="c4">Four</div>
+    </div>
+
+    <h3>position::relative</h3>
+    <div class="d2">
+        <div class="c1">One</div>
+        <div class="c2">Two</div>
+        <div class="c3">Three</div>
+        <div class="c4">Four</div>
+    </div>
+
+    <h3>position::absolute</h3>
+    <div class="d3">
+        <div class="c1">One</div>
+        <div class="c2">Two</div>
+        <div class="c3">Three</div>
+        <div class="c4">Four</div>
+    </div>
+</body>
+
+</html>

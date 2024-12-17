@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    p::before {
+      content: url(image.png);
+    } 
+
+    h3::after {
+      content: url(image.png);
+      width: 300px;
+      height: 200px;
+    }
+
+    h3::before {
+      content: "text";
+      color: red;
+      background: yellow;
+      width: 300px;
+      height: 200px;
+      margin: 10px;
+      padding: 10px;
+      border: solid;
+      border-radius: 10px;
+    }
+    /*
+    p{
+      display: none;
+      display:block;
+      display:inline;
+      display:inline-block;
+    }
+    */
+
+  </style>
+</head>
+
+<body>
+
+  <p>p1 The ::after pseudo-element inserts content after the content of an element.</p>
+  <h3>p2 The ::before pseudo-element inserts content after the content of an element.</h3>
+
+</body>
+
+</html>
